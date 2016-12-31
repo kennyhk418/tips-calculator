@@ -71,13 +71,13 @@
             ?>
 
                 <div class="showtips">
-                Tips:
+                Tips: $
 
             <?php
                         echo $totaltips;
             ?><br>
 
-                Total:
+                Total: $
             <?php
                         echo $totaltips + $_POST['subtotal'];
                     }//end radio check if
